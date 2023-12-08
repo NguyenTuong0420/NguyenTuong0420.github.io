@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mobile</title>
+        <link href="My_first_website.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <img src="logo_final.png" alt="logo" class="navbar_logo">
+            <nav>
+                <ul class="pages">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Culture.html">Places</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Inspiration</a></li>
+
+                </ul>
+            </nav>
+           
+            
+        </header>
+        
+        <main>
+            <div class="Home_content">
+                <div class="Home_text">
+                    <label class="Home_big_word">Ha Noi </label>
+                    <p class="paragraph">
+                        Hanoi 36 Streets is an ancient urban area located inside and outside Hanoi's old quarter.
+                        This old town includes 76 streets that have appeared since the 11th century. 
+
+                    </p>
+                    <div class="Home_button">   
+                        <a href="Pictures.html"><button type="button" id="picture_button">Pictures</button></a>
+                        <button type="button" id="video_button">Watch Video </button>
+                    </div>
+                    
+                    
+                </div>
+
+                
+                    
+                
+                
+                <img src="Ho_Guom_final_4.PNG" id="thap_rua">
+            </div>
+            
+        </main>
+
+        <footer>
+            <div class="p_info">
+                <div class="personal_info">
+                    <label class="personal_info_position">Nguyen Manh Tuong</label>
+                    <label class="personal_info_position">Born: 2005</label>
+                    <label class="personal_info_position">Viet Nam</label>
+                    <label class="personal_info_position">Haaga-Helia UAS</label>
+                </div>
+                <div class="personal_info">
+                    <label class="personal_info_position">Contact me:</label>
+                    <label class="personal_info_position"><a href="https://www.facebook.com/zuck">Facebook</a></label>
+                    <label class="personal_info_position"><a href="https://www.instagram.com/zuck/">Instagram</a></label>
+                    <label class="personal_info_position">Email: abcxy@gmail.com</label>
+                </div>
+
+            </div>
+            
+            <div class="copyright">
+                <label>First Website</label>
+                <div class="icons">
+                    <i class="fa fa-facebook-f" style="font-size:24px"></i>
+                    <i class="fa fa-instagram" style="font-size:24px"></i>
+                    <i class="fa fa-twitter" style="font-size:24px"></i>
+                </div>
+            </div>
+        </footer>
+       
+
+        <!-- Popup container -->
+            <div class="overlay" id="videoPopup">
+                <div class="popup"> 
+                <!-- Close button -->
+                    <span class="close-btn" onclick="closePopup()">&times;</span>
+      
+                <!-- Video iframe -->
+                    <iframe width="380" height="280" src="Hanoi  The Aesthetics of Chaos  Cinematic video_720p.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <script src="My_first_website.js"></script>
+
+
+
+    </body>
+
+</html>
